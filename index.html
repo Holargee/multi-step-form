@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Multi Step Form</title>
+    <link rel="stylesheet"href="form-pro.css">
+<script src="form-pro.js"></script>
+</head>
+<body >
+    <div class="backg1">
+ <div class="flx">
+  <span class="circ on"id="one"style="color:black;">1</span>
+  <span class="circ"id="two">2</span>
+  <span class="circ"id="tre">3</span>
+  <span class="circ"id="four">4</span>
+ </div>
+ <input type="text"id="tz"value=1>
+ <input type="text"id="tot"class="none">
+    <div class="top top1"id="top1">
+       <h3>Personal Info</h3>
+       <div class="ft">Pls provide your Name, Email address and phone number.</div>
+       <br><label for="name">Name</label><br>
+       <input type="text"placeholder="e.g Olanibi Gideon" class="input"id="name"><br>
+       <label for="email">Email Address</label><br>
+   <input type="email"placeholder="e.g holargee123@gmail.com"id="email"class="input">
+  <br> <label for="number">Phone Number</label><br>
+ <input type="number"placeholder="e.g 0903 336 0960"id="number"class="input">
+    </div>
+    <div class="top top2"id="top2">
+   <h3>Select your plan</h3>   
+<div class="ft">you have the option of monthly or yearly billing</div>
+<label for="os"><div class="box"id="box1">
+ <div class="ci">Hi</div>
+ <div class="arcs">Arcade<br><span class="mo">$9/mo</span></div>
+ <input type="radio"name="ok"id="os"class="rad"checked="checked">
+ </div>
+ </label>
+ 
+ <label for="ad">
+ <div class="box"id="box2">
+ <div class="ci ci2">Hey</div>
+ <div class="arcs">Advanced<br><span class="mo">$12/mo</span></div>
+ <input type="radio"name="ok"id="ad"class="rad">
+ </div>
+ </label>
+ 
+ <label for="pro">
+ <div class="box"id="box3">
+ <div class="ci ci3">Ok</div>
+ <div class="arcs">Pro<br><span class="mo">$15/mo</span></div>
+ <input type="radio"name="ok"id="pro"class="rad">
+ </div>
+ </label>
+<label class="switch"> <div class="ye"><span class="tm"id="mo">Monthly</span><input type="checkbox"id="cb"><span class="slider round"></span><span class="tx"id="yr">&nbsp;&nbsp;Yearly</span></label></div>
+    </div>
+   
+      <div class="top top3"id="top3">
+   <h3>Pick add-ons</h3> 
+ 
+<div class="ft">Add-ons help enhance your gaming experience</div>
+<div class="box"id="amb">
+    <label class="container">
+ <div class="arc">Online service<span class="hmm">+$1/mo</span><br><span class="mo">Access to multiplayer games</span></div>
+ <input type="checkbox"id="am">
+ <span class="checkmark"></span>
+ </label>
+ </div>
+ 
+ <div class="box"id="etb">
+     <label class="container">
+ <div class="arc">Larger Storage<span class="hmm">+$2/mo</span><br><span class="mo">Enhance tts of cloud save</span></div>
+ <input type="checkbox"id="et">
+ <span class="checkmark"></span>
+ </label>
+ </div>
+ 
+ <div class="box"id="ctb">
+     <label class="container">
+ <div class="arc arc1">Customizable Profile
+ <span class="hmm hm">+$2/mo</span>
+ <br><span class="mo">Customize theme on your profile</span></div>
+ <input type="checkbox"id="ct">
+ <span class="checkmark"></span>
+ </label>
+ </div></div>
+ 
+  <div class="top top4"id="top4">
+   <h3>Finishing Up</h3>   
+<div class="ft">Double-check everything looks  OK before confirming.</div>
+ <div class="list">
+   <div class="line"><b id="plan">Arcade (Monthly)</b><b><span class="lef"id="lef">$9/mo</span></b></div>
+   <hr> 
+   <div class="line none"id="ams">Online Services<span class="lef">+$1/mo</span></div>
+   <div class="line none"id="ets">Larger Storage<span class="lef">+$2/mo</span></div>
+   <div class="line ls none"id="cts">Customizable Profile<span class="lef">+$2/mo</span></div>
+ <div class="line lin"><p></p>Total (Per Month)<span class="lef to">+$<span id="total">12</span>/mo</span></div>
+    </div></div> 
+ 
+ <div class="foot"><div class="go" id="go"onclick="gb()">Go back</div><div class="but"id="but"onclick="ns()">Next Step</div>
+    </div>
+</body>
+</html>
